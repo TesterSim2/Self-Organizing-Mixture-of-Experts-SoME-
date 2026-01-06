@@ -11,10 +11,6 @@ The core thesis of SoME is that continual learning can be achieved not by retrai
 - **Approach:** A self-organizing mixture-of-experts (MoE) that adapts routing during training to specialize experts while keeping the expert set stable.
 - **Outcome:** Enables reuse of existing open models as experts, with routing updates capturing new knowledge while preserving the underlying primitives.
 
-## Version Map
-- **Reference implementation:** **v7 (Clamp Fix)** – use this as the baseline for reproductions. Code and results are packaged as PDFs in [`notebooks/v7/some-v7-clamp-fix-code.pdf`](notebooks/v7/some-v7-clamp-fix-code.pdf) and [`experiments/v7/some-v7-clamp-fix-results.pdf`](experiments/v7/some-v7-clamp-fix-results.pdf).
-- **Historical context:** Earlier variants (v1–v6) remain available for comparison in their respective folders. See [`VERSIONS.md`](VERSIONS.md) for links to every version’s narrative, notebook, and results artifacts.
-
 ## Quickstart
 1. **Environment:**
    - Python 3.10+ with virtualenv/venv.
