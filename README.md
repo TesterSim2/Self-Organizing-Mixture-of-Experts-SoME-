@@ -23,7 +23,7 @@ The core thesis of SoME is that continual learning can be achieved not by retrai
    - Learning rate, weight decay, and optimizer settings.
    - Sequence length, batch size, and curriculum schedule.
 5. **Run:**
-   - Open the version’s code PDF (e.g., `notebooks/v7/some-v7-clamp-fix-code.pdf`) and execute the cells in a Jupyter environment.
+   - Open the version’s code PDF (e.g., `notebooks/v7/some-v7-clamp.ipynb`) and execute the cells in a Jupyter environment.
    - Log outputs to reproduce the metrics reported in the matching `experiments/<version>/` PDF.
 
 ## Repository Layout
@@ -31,7 +31,7 @@ The core thesis of SoME is that continual learning can be achieved not by retrai
 - `SoME-v1` ... `SoME-v7` – per-version folders (v7 is the reference Clamp Fix release).
 - `docs/` – papers and narrative PDFs.
 - `notebooks/` – code notebooks exported as PDFs for each version.
-- `experiments/` – result PDFs for each version.
+- `experiments/` – result .IPYNB for each version.
 - `comparisons/` – cross-model benchmarks (e.g., SoME vs GPT-2).
 
 ## Key Concepts
@@ -46,7 +46,7 @@ The core thesis of SoME is that continual learning can be achieved not by retrai
 
 ## Roadmap
 - Maintain v7 (Clamp Fix) as the canonical baseline while iterating on future releases.
-- Publish runnable scripts (alongside the PDFs) to streamline reproduction across environments.
+- Publish runnable scripts to streamline reproduction across environments.
 - Broaden benchmarks in `comparisons/` to cover additional public models and tasks.
 
 ## License
